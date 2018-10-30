@@ -16,24 +16,21 @@ $ yarn
 ```
 or
 
-```sh
-$ npm install
-```
 # Running the source for web
 To run in a browser using the webpack dev server in development mode
 ```sh
-$ npm start
+$ yarn start
 ```
 
 # Running the source using Electron
 
 To run a production build
 ```sh
-$ npm run electron-prod
+$ yarn electron-prod
 ```
 To run a development build
 ```sh
-$ npm run electron-dev
+$ yarn electron-dev
 ```
 
 
@@ -41,24 +38,24 @@ $ npm run electron-dev
 
 To build for production
 ```sh
-$ npm run build
+$ yarn build
 ```
 To make a development build
 ```sh
-$ npm run build-dev
+$ yarn build-dev
 ```
 
 # Building the source for Electron
 
 To build for production
 ```sh
-$ npm run electron-build
+$ yarn electron-build
 ```
 # Packaging the electron build for Windows
 
 To package the production electron build produced from running (above) 'npm run electron-build'
 ```sh
-$ npm run electron-package
+$ yarn electron-package
 ```
 The output binaries can be found in electron/package/react-electron-web-boilerplate-win32-ia32
 
