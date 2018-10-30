@@ -8,5 +8,4 @@ package-lock.json
 /electron/prod/dist
 /output
 .vscode
-
-
+.idea
